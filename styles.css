@@ -1,2 +1,93 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  background-color: hsl(30, 38%, 92%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 600px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-image {
+  object-fit: cover;
+  height: 460px;
+  width: 50%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 24px;
+  letter-spacing: 2px;
+}
+.card-text-category {
+  color: hsl(228, 12%, 48%);
+}
+
+.card-text-name{
+  font-size: 32px;
+  font-family: Fraunces;
+}
+
+.card-text-description {
+   color: hsl(228, 12%, 48%);
+   font-size: 12px;
+   line-height: 1.5;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.card-text-promoprice {
+  color: hsl(158, 36%, 37%);
+  font-size: 32px;
+  font-family: Fraunces;
+}
+
+.card-text-normalprice {
+  align-self: center;
+  text-decoration : line-through;
+  color: hsl(228, 12%, 48%)
+}
+
+.card-text-button_add_to_cart{
+  color:hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 8px;
+  min-width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+ }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
