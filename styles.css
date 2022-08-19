@@ -29,6 +29,7 @@ body{
   object-fit: cover;
   height: 460px;
   width: 50%;
+  flex-shrink: 0;
 }
 
 .card-text {
