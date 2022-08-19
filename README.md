@@ -1,46 +1,19 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+This is my solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### Screenshot
-
-### Links
-
-## My process
+![Capture d’écran 2022-08-19 à 13 21 33](https://user-images.githubusercontent.com/73802863/185675197-16a17b34-33eb-4c59-8e71-8470a6ee711b.png)
 
 ### Built with
+- HTML
+- CSS
+- Flexbox
 
 ### What I learned
-
-### Continued development
+- to place correctly the image using:
+  - object-fit: cover;
+  - width: 50%;
 
 ### Useful resources
-
-## Author
-
-## Acknowledgments
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
