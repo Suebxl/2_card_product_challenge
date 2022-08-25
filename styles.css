@@ -19,7 +19,7 @@ body{
 
 .card {
   display: flex;
-  background-color: hsla(0, 41%, 72%, 0.685);
+  background-color: white;
   max-width: 600px;
   border-radius: 16px;
   overflow: hidden;
@@ -29,6 +29,7 @@ body{
   object-fit: cover;
   height: 460px;
   width: 50%;
+  flex-shrink: 0;;
 }
 
 .card-text {
